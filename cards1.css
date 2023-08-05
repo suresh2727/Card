@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+
+
+
+}
+
+.cards img{
+    
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+
+}
+
+
+
+
+
+.process{
+    width: 80%;
+    height: 9%;
+    border-radius: 20px;
+    background-color: rgb(30, 30, 72);
+    color: white;
+
+}
+
+.process:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.cancelorder a{
+    text-decoration: none;
+    color: rgba(72, 72, 72, 0.812);
+    font-size: 1.1rem;
+
+
+}
+
+
+.leftbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    gap:10px
+   
+}
+
+.imagebox img{
+    height: 20px;
+    width: 20px;
+
+}
+
+
+
+
+.rightbox{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+
+}
+
+
+
+.amountbox{
+    background-color: blueviolet;
+    width: 80%;
+    height: 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.rightbox a{
+    color: rgb(43, 43, 208);
+    
+}
+
